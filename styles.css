@@ -1,0 +1,163 @@
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EAF2E3;
+}
+
+.header-triangle-container {
+    position: absolute;
+    height: 360px;
+    width: 260px;
+    overflow: hidden;
+}
+
+.header-background-triangle {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 360px;
+    width: 260px;
+    background-color: #061826;
+    clip-path: polygon(0 0, 0% 100%, 85% 0);
+    transform-origin: bottom left;
+}
+
+header {
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    padding: 20px 0 0 20px;
+}
+
+.profile-picture {
+    float: left;
+    height: 160px;
+    border-radius: 50%;
+    border: solid #EAF2E3 5px;
+    shape-outside: circle(50%);
+}
+
+h1 {
+    padding-top: 90px;
+    line-height: 80%;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #508991;
+}
+
+.h1-name {
+    display: inline-block;
+}
+
+.h1-name::first-letter {
+    color: #061826;
+    font-size: 3rem;
+}
+
+.firstName {
+    position: absolute;
+    padding: 50px 0 0 70px;
+}
+
+.lastName {
+    position: absolute;
+    margin: 50px 0 0 -145px;
+    float: right;
+}
+
+.subheader {
+    margin: 120px 0 0 70px;
+    font-size: 0.8rem;
+}
+
+.main {
+    position: relative;
+    z-index: -2;
+    background-color: #508991;
+    padding: 80px 0 0 0;
+}
+
+.main-triangle-container {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 50px;
+    margin: -80px 0 0 0;
+}
+
+.main-background-triangle {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100vw;
+    height: 50px;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    background-color: #EAF2E3;
+    transform-origin: top left;
+}
+
+section {
+    height: 600px;
+}
+
+section p {
+    margin: 0 40px 40px 40px;
+    text-align: justify;
+}
+
+.about-me {
+    padding: 80px 0 0 0;
+    height: 500px
+}
+
+.experience {
+    position: relative;
+    height: 800px;
+    background: linear-gradient(0deg, #EAF2E3 50%, #508991 50%);}
+
+.experience-background-2 {
+    position: absolute;
+    background-color: #061826;
+    height: 100%;
+    width: 100vw;
+    top: -85px;
+    left: -80vw;
+}
+
+.experience-background-triangle-2 {
+    position: absolute;
+    width: 100vw;
+    height: 80px;
+    top: -80px;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+    background-color: #061826;
+}
+
+.experience-background {
+    position: absolute;
+    width: 100vw;
+    height: 80%;
+    left: -85vw;
+    background-color: #EAF2E3;
+}
+
+.experience-background-triangle {
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    top: -100px;
+    clip-path: polygon(60% 0, 100% 100%, 100% 100%, 0 100%, 0 0);
+        background-color: #EAF2E3;
+}
+
+.experience-text-wrap-triangle {
+    height: 70px;
+    width: 100px;
+    shape-outside: polygon(0 1%, 100% 100%, 100% 0);
+    float: right;
+}
